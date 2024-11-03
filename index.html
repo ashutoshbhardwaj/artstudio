@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Surbhi Aggarwal Art Studio</h1>
+
+
+
+        <nav>
+            <a href="#gallery">Gallery</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+    
+    <section id="gallery">
+        <h2>Art Gallery</h2>
+        <div class="gallery-container">
+            <!-- Add your artwork images here -->
+            <div class="art-item"><img src="images/vladyslav-tobolenko-qaiiy8jmWRY-unsplash copy.jpg" alt="Art 1"></div>
+            <div class="art-item"><img src="images/vladyslav-tobolenko-qaiiy8jmWRY-unsplash.jpg" alt="Art 2"></div>
+            <div class="art-item"><img src="images/vladyslav-tobolenko-qaiiy8jmWRY-unsplash copy.jpg" alt="Art 3"></div>
+            <div class="art-item"><img src="images/vladyslav-tobolenko-qaiiy8jmWRY-unsplash copy.jpg" alt="Art 4"></div>
+        </div>
+    </section>
+    <section id="pricing">
+        <h2>Art Session Pricing</h2>
+        <div class="pricing-container">
+            <div class="pricing-card">
+                <h3>Art Session Package</h3>
+                <div class="price">
+                    <span class="amount">50 AUD
+                    <span class="duration">/ 2 hours
+                </div>
+                <ul class="features">
+                    <li>One-on-one instruction</li>
+                    <li>All materials included</li>
+                    <li>Perfect for beginners</li>
+                    <li>Take home your artwork</li>
+                </ul>
+                <a class="book-button" href="#contact">Book Now</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
