@@ -308,6 +308,14 @@ form button[type="submit"]:hover {
     background-color: #444;
 }
 
+/* Address Styling */
+.contact-address {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
 /* Optional: Align Text Center for form */
 form h2,
 form p {
