@@ -52,7 +52,7 @@
         </div>
     </section>
     
-    <section id="contact">
+    <!-- <section id="contact">
         <h2>Contact Me</h2>
         <form id="contact-form">
             <label for="name">Name:</label>
@@ -66,8 +66,21 @@
 
             <button type="submit">Send Message</button>
         </form>
-    </section>
+    </section> -->
 
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form action="https://formspree.io/f/mvgokdqj" method="POST">
+        <label>
+            Your email:
+            <input type="email" name="email">
+        </label>
+        <label>
+            Your message:
+            <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+    </form>
     <script src="script.js"></script>
 </body>
 </html>
