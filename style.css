@@ -7,7 +7,7 @@
 
 body {
     line-height: 1.6;
-    color: #333;
+    color: #fff;
     background: url('images/fons-heijnsbroek-abstract-art-L5aBraatoNc-unsplash.jpg') no-repeat center center fixed;
     background-size: cover; /* Ensures image covers entire screen */
     padding: 0 15px; /* Add padding for mobile edge spacing */
@@ -119,7 +119,7 @@ button {
 #pricing h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #fff;
 }
 
 .pricing-container {
@@ -311,7 +311,7 @@ form button[type="submit"]:hover {
 /* Address Styling */
 .contact-address {
     font-size: 1.1rem;
-    color: #333;
+    color: #fff;
     margin-bottom: 1.5rem;
     font-weight: bold;
     text-align: center;
